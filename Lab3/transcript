@@ -1,0 +1,285 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Project file /home/kien/Documents/20241/design_verify_ic/Lab3/lab3.mpf was not found.
+# Unable to open project.
+# Loading project lab3
+# Compile of ALU.vp was successful.
+# Compile of Arith_ALU.vp was successful.
+# Compile of data_defs.v was successful.
+# Compile of Driver.sv was successful.
+# Compile of DriverBase.sv was successful.
+# Compile of Ex_Preproc.vp was successful.
+# Compile of Execute.if.sv was successful.
+# Compile of Execute.tb.sv was successful with warnings.
+# Compile of Execute.test_top.sv was successful.
+# Compile of Generator.sv was successful.
+# Compile of OutputPacket.sv was successful.
+# Compile of Packet.sv was successful.
+# Compile of Receiver.sv was successful.
+# Compile of ReceiverBase.sv was successful.
+# Compile of Scoreboard.sv was successful with warnings.
+# Compile of Shift_ALU.vp was successful.
+# Compile of Top.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.Execute_test_top
+# vsim -voptargs="+acc" work.Execute_test_top 
+# Start time: 23:46:57 on Nov 01,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv(24): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv(20) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv(28): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv(23) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Receiver.sv(11): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Receiver.sv(7) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'driver_mbox'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'receiver_mbox'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv(24): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv(20) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv(28): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv(23) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Receiver.sv(11): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Receiver.sv(7) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'name'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'driver_mbox'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(35): (vopt-2217) No default specified for 'receiver_mbox'.  Default must match the value specified in class at /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(27) for strict LRM compliance.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(101): (vopt-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(110): (vopt-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(113): (vopt-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: /home/kien/Documents/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv(122): (vopt-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# Loading sv_std.std
+# Loading work.Execute_test_top(fast)
+# Loading work.Execute_io(fast)
+# Loading work.DUT_probe_if(fast)
+# Loading work.Execute_tb_sv_unit(fast)
+# Loading work.Execute_test(fast)
+# Loading work.Top(fast)
+# Loading work.Ex_Preproc(fast)
+# Loading work.ALU(fast)
+# Loading work.Arith_ALU(fast)
+# Loading work.Shift_ALU(fast)
+# Loading work.Execute_io(fast)
+# Loading work.DUT_probe_if(fast)
+add wave -position insertpoint sim:/Execute_test_top/top_io/*
+run
+#                    0ns:  [RESET]  Design Reset Start
+#                   45ns:  [RESET]  Design Reset End
+#                   45ns:  [GENERATOR] Generator Started
+#                   45ns:  [DRIVER] Driver Started
+#                   45[DRIVER] DRIVER Forking of process is finished
+#                   45[SCOREBOARD] Scoreboard Started
+#                   45[SCOREBOARD] Receiver Mailbox contents =           0
+#                   45[SCOREBOARD] Forking of Process Finished
+#                   45[RECEIVER]  RECEIVER STARTED
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45 [GENERATOR] Packet Generation done .. Now to put it in Driver mailbox
+#                   45ns:  [GENERATOR] Generation Finished Creating         100 Packets  
+#                   45[DRIVER] Sending in new packet BEGIN
+#                   45ns:  [DRIVER] Sending Payload Begin
+#                   45ns:  [DRIVER] Sending in new packet END
+#                   45ns:  [DRIVER] Number of packets sent =           1
+#                   45ns:  [DRIVER] The number of Packets in the Generator Mailbox =          99
+#                   55[RECEIVER] Forking of Process Finished
+#                   55[DRIVER] Sending in new packet BEGIN
+#                   55ns:  [DRIVER] Sending Payload Begin
+#                   55ns:  [DRIVER] Sending in new packet END
+#                   55ns:  [DRIVER] Number of packets sent =           2
+#                   55ns:  [DRIVER] The number of Packets in the Generator Mailbox =          98
+#                   65[RECEIVER]  Getting Payload
+#                   65[RECEIVER]  Payload Contents:  Aluout = 00000000 mem_write_en = 1 mem_data_write_out = 00001eed
+#                   65[RECEIVER]  Payload Obtained
+#                   65[DRIVER] Sending in new packet BEGIN
+#                   65ns:  [DRIVER] Sending Payload Begin
+#                   65ns:  [DRIVER] Sending in new packet END
+#                   65ns:  [DRIVER] Number of packets sent =           3
+#                   65ns:  [DRIVER] The number of Packets in the Generator Mailbox =          97
+#                   65[SCOREBOARD] Grabbing Data From both Driver and Receiver
+#                   65ns: [CHECKER] Checker Start
+# 
+# 
+#                   65ns:   [CHECKER] Pkt Contents: src1 = 000020b0, src2 = 00001eed, imm = 0000429c, 
+#                   65ns:   [CHECKER] Pkt Contents: opselect = 101, immp_regn = 1, operation = 100, 
+#                   65ns:  	[CHECK_ARITH] Golden Incoming Arithmetic enable = 0
+#                   65ns:  	[CHECK_ARITH] Golden Incoming ALUIN = 00000000  00000000 
+#                   65ns:  	[CHECK_ARITH] Golden Incoming CONTROL = 000(opselect)  000(operation) 
+#                   65ns:   [CHECKER CORRECT] ALUOUT: DUT = 00000000   & Golden Model = 00000000
+# 
+#                   65ns: MEM_WRITE TRUE mem_DUT = 00001eed    mem_GOL = 00001eed
+# 
+#                   65ns: MEM_EN FAIL mem_DUT = 1    mem_GOL = 0
+# 
+#                   75[RECEIVER]  Getting Payload
+#                   75[RECEIVER]  Payload Contents:  Aluout = 00000000 mem_write_en = 0 mem_data_write_out = 0000d866
+#                   75[RECEIVER]  Payload Obtained
+#                   75[DRIVER] Sending in new packet BEGIN
+#                   75ns:  [DRIVER] Sending Payload Begin
+#                   75ns:  [DRIVER] Sending in new packet END
+#                   75ns:  [DRIVER] Number of packets sent =           4
+#                   75ns:  [DRIVER] The number of Packets in the Generator Mailbox =          96
+#                   75[SCOREBOARD] Grabbing Data From both Driver and Receiver
+#                   75ns: [CHECKER] Checker Start
+# 
+# 
+#                   75ns:   [CHECKER] Pkt Contents: src1 = 0000efe1, src2 = 0000d866, imm = 0000d1e4, 
+#                   75ns:   [CHECKER] Pkt Contents: opselect = 100, immp_regn = 1, operation = 111, 
+#                   75ns:  	[CHECK_ARITH] Golden Incoming Arithmetic enable = 0
+#                   75ns:  	[CHECK_ARITH] Golden Incoming ALUIN = 00000000  00000000 
+#                   75ns:  	[CHECK_ARITH] Golden Incoming CONTROL = 000(opselect)  000(operation) 
+#                   75ns:   [CHECKER CORRECT] ALUOUT: DUT = 00000000   & Golden Model = 00000000
+# 
+#                   75ns: MEM_WRITE TRUE mem_DUT = 0000d866    mem_GOL = 0000d866
+# 
+#                   75ns: MEM_EN FAIL mem_DUT = 0    mem_GOL = 1
+# 
+#                   85[RECEIVER]  Getting Payload
+#                   85[RECEIVER]  Payload Contents:  Aluout = 00000000 mem_write_en = 1 mem_data_write_out = 00001dc0
+#                   85[RECEIVER]  Payload Obtained
+#                   85[DRIVER] Sending in new packet BEGIN
+#                   85ns:  [DRIVER] Sending Payload Begin
+#                   85ns:  [DRIVER] Sending in new packet END
+#                   85ns:  [DRIVER] Number of packets sent =           5
+#                   85ns:  [DRIVER] The number of Packets in the Generator Mailbox =          95
+#                   85[SCOREBOARD] Grabbing Data From both Driver and Receiver
+#                   85ns: [CHECKER] Checker Start
+# 
+# 
+#                   85ns:   [CHECKER] Pkt Contents: src1 = 0000b08a, src2 = 00001dc0, imm = 00002342, 
+#                   85ns:   [CHECKER] Pkt Contents: opselect = 001, immp_regn = 0, operation = 111, 
+#                   85ns:  	[CHECK_ARITH] Golden Incoming Arithmetic enable = 0
+#                   85ns:  	[CHECK_ARITH] Golden Incoming ALUIN = 00000000  00000000 
+#                   85ns:  	[CHECK_ARITH] Golden Incoming CONTROL = 000(opselect)  000(operation) 
+#                   85ns:   [CHECKER CORRECT] ALUOUT: DUT = 00000000   & Golden Model = 00000000
+# 
+#                   85ns: MEM_WRITE TRUE mem_DUT = 00001dc0    mem_GOL = 00001dc0
+# 
+#                   85ns: MEM_EN FAIL mem_DUT = 1    mem_GOL = 0
+# 
+#                   95[RECEIVER]  Getting Payload
+#                   95[RECEIVER]  Payload Contents:  Aluout = 1dc00000 mem_write_en = 1 mem_data_write_out = 0000726e
+#                   95[RECEIVER]  Payload Obtained
+#                   95[DRIVER] Sending in new packet BEGIN
+#                   95ns:  [DRIVER] Sending Payload Begin
+#                   95ns:  [DRIVER] Sending in new packet END
+#                   95ns:  [DRIVER] Number of packets sent =           6
+#                   95ns:  [DRIVER] The number of Packets in the Generator Mailbox =          94
+#                   95[SCOREBOARD] Grabbing Data From both Driver and Receiver
+#                   95ns: [CHECKER] Checker Start
+# 
+# 
+#                   95ns:   [CHECKER] Pkt Contents: src1 = 00002ead, src2 = 0000726e, imm = 000087fe, 
+#                   95ns:   [CHECKER] Pkt Contents: opselect = 001, immp_regn = 0, operation = 001, 
+#                   95ns:  	[CHECK_ARITH] Golden Incoming Arithmetic enable = 1
+#                   95ns:  	[CHECK_ARITH] Golden Incoming ALUIN = 0000b08a  00001dc0 
+#                   95ns:  	[CHECK_ARITH] Golden Incoming CONTROL = 001(opselect)  111(operation) 
+#                   95ns:   [CHECKER CORRECT] ALUOUT: DUT = 1dc00000   & Golden Model = 1dc00000
+# 
+#                   95ns: MEM_WRITE TRUE mem_DUT = 0000726e    mem_GOL = 0000726e
+# 
+#                   95ns: MEM_EN FAIL mem_DUT = 1    mem_GOL = 0
+# 
+# End time: 08:16:46 on Nov 02,2024, Elapsed time: 8:29:49
+# Errors: 0, Warnings: 16

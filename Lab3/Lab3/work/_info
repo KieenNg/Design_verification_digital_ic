@@ -1,0 +1,492 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3
+T_opt
+!s110 1730779269
+V82@]=`;2l:PD[Vg<ATn1A0
+04 16 4 work Execute_test_top fast 0
+=1-d880838bd409-67299885-23d33-67a3
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vALU
+Z2 !s110 1730779263
+!i10b 1
+!s100 EeM=MIKSz?bCYiS6jFJB51
+IGmf=k3zmHmV5Ace^Cc3V41
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+R0
+w1729823836
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ALU.vp
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ALU.vp
+L0 2
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1730779262.000000
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ALU.vp|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ALU.vp|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+vArith_ALU
+R2
+!i10b 1
+!s100 48V?9f>b@;Qig]ZOgQzM;0
+IRzNHEPKMQE2g5cKff3_kn2
+R3
+!i119 1
+R0
+w1729823830
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Arith_ALU.vp
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Arith_ALU.vp
+L0 2
+R4
+r1
+!s85 0
+31
+Z6 !s108 1730779263.000000
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Arith_ALU.vp|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Arith_ALU.vp|
+!i113 0
+R5
+R1
+n@arith_@a@l@u
+XDriver_sv_unit
+Z7 !s115 Execute_io
+Z8 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R2
+!i10b 1
+!s100 DUMIeiCIgDBAB3knzJDGg3
+IFFHizIo^;i;Ua_hB]?6o20
+VFFHizIo^;i;Ua_hB]?6o20
+!i103 1
+S1
+R0
+Z9 w1729823824
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Driver.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Driver.sv
+Z10 FDriverBase.sv
+Z11 Fdata_defs.v
+Z12 FPacket.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 Packet.sv|data_defs.v|DriverBase.sv|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Driver.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Driver.sv|
+!i113 0
+R5
+R1
+n@driver_sv_unit
+XDriverBase_sv_unit
+R7
+R8
+R2
+!i10b 1
+!s100 d7]<N78H=oN3@TzH6k9I71
+IW4c[bX`7D1CdOcD68^K@g0
+VW4c[bX`7D1CdOcD68^K@g0
+!i103 1
+S1
+R0
+R9
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/DriverBase.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/DriverBase.sv
+R11
+R12
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 Packet.sv|data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/DriverBase.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/DriverBase.sv|
+!i113 0
+R5
+R1
+n@driver@base_sv_unit
+YDUT_probe_if
+R8
+R2
+!i10b 1
+!s100 YKBkP`@MmU?f7dm0^<0>l0
+IM[X=dQ?lmkZlAO>8Zz]Ge2
+R3
+Z13 !s105 Execute_if_sv_unit
+S1
+R0
+Z14 w1729823804
+Z15 8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.if.sv
+Z16 F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.if.sv
+L0 35
+R4
+r1
+!s85 0
+31
+R6
+Z17 !s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.if.sv|
+Z18 !s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.if.sv|
+!i113 0
+R5
+R1
+n@d@u@t_probe_if
+vEx_Preproc
+R2
+!i10b 1
+!s100 jzGOJYGB1W^FbYl:m`XEG1
+II_zLebJJT7Z4ddIl[>:mf2
+R3
+!i119 1
+R0
+w1729823808
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Ex_Preproc.vp
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Ex_Preproc.vp
+L0 2
+R4
+r1
+!s85 0
+31
+R6
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Ex_Preproc.vp|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Ex_Preproc.vp|
+!i113 0
+R5
+R1
+n@ex_@preproc
+YExecute_io
+R8
+R2
+!i10b 1
+!s100 mR9=DhK:W2?BzaK>J2GKP2
+Io7oPUKjEh64EYjPQ0XjhR0
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 2
+R4
+r1
+!s85 0
+31
+R6
+R17
+R18
+!i113 0
+R5
+R1
+n@execute_io
+XExecute_tb_sv_unit
+Z19 !s115 DUT_probe_if
+R7
+R8
+V[d>KO;4KG<^ZiZ2F=f35b0
+r1
+!s85 0
+!i10b 1
+!s100 ^ak7?b8W7C]O6;c^G9O=13
+I[d>KO;4KG<^ZiZ2F=f35b0
+!i103 1
+S1
+R0
+R9
+Z20 8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.tb.sv
+Z21 F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.tb.sv
+R12
+R11
+Z22 FOutputPacket.sv
+FDriver.sv
+R10
+FGenerator.sv
+FReceiver.sv
+Z23 FReceiverBase.sv
+FScoreboard.sv
+L0 4
+R4
+31
+R6
+Z24 !s107 Scoreboard.sv|ReceiverBase.sv|Receiver.sv|Generator.sv|DriverBase.sv|Driver.sv|OutputPacket.sv|data_defs.v|Packet.sv|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.tb.sv|
+Z25 !s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.tb.sv|
+!i113 0
+R5
+R1
+n@execute_tb_sv_unit
+4Execute_test
+R8
+DXx4 work 18 Execute_tb_sv_unit 0 22 [d>KO;4KG<^ZiZ2F=f35b0
+R3
+r1
+!s85 0
+!i10b 1
+!s100 c__2dnK5=P6Hj3XZG^1L13
+Im9XX`<SmfdhT?PDXzC;WM0
+!s105 Execute_tb_sv_unit
+S1
+R0
+w1729823794
+R20
+R21
+L0 8
+R4
+31
+R6
+R24
+R25
+!i113 0
+R5
+R1
+n@execute_test
+vExecute_test_top
+R8
+R2
+!i10b 1
+!s100 >Gc<d7;OJjVj^^R=91dgQ2
+In=gQSYGf=Afd1S>]fHH470
+R3
+!s105 Execute_test_top_sv_unit
+S1
+R0
+w1729823772
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.test_top.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.test_top.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R6
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.test_top.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Execute.test_top.sv|
+!i113 0
+R5
+R1
+n@execute_test_top
+XGenerator_sv_unit
+R8
+R2
+!i10b 1
+!s100 neBoN_JT>:YPT:62ifjJS3
+IO80[E]H;GNEOhYJT<FZZc2
+VO80[E]H;GNEOhYJT<FZZc2
+!i103 1
+S1
+R0
+R9
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Generator.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Generator.sv
+R11
+R12
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 Packet.sv|data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Generator.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Generator.sv|
+!i113 0
+R5
+R1
+n@generator_sv_unit
+XOutputPacket_sv_unit
+R8
+!s110 1730779388
+!i10b 1
+!s100 D?C3V]e;<60Y<[?mR=`2E2
+IJBR_MdJET02ZVR`KnJmX40
+VJBR_MdJET02ZVR`KnJmX40
+!i103 1
+S1
+R0
+w1730779363
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv
+R11
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1730779388.000000
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/OutputPacket.sv|
+!i113 0
+R5
+R1
+n@output@packet_sv_unit
+XPacket_sv_unit
+R8
+!s110 1730782531
+!i10b 1
+!s100 TKMYfhO]0U=[Go<7]D8cD2
+ITogTMzXIlMUQ@3]leg`gV3
+VTogTMzXIlMUQ@3]leg`gV3
+!i103 1
+S1
+R0
+w1730782522
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Packet.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Packet.sv
+R11
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1730782531.000000
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Packet.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Packet.sv|
+!i113 0
+R5
+R1
+n@packet_sv_unit
+XReceiver_sv_unit
+R19
+R7
+R8
+R2
+!i10b 1
+!s100 ZB>LLDkXdR>JJ3^eASdW^0
+IWPeZ=hZQL8LEY]8E:kC0P2
+VWPeZ=hZQL8LEY]8E:kC0P2
+!i103 1
+S1
+R0
+R9
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Receiver.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Receiver.sv
+R23
+R11
+R22
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 OutputPacket.sv|data_defs.v|ReceiverBase.sv|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Receiver.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Receiver.sv|
+!i113 0
+R5
+R1
+n@receiver_sv_unit
+XReceiverBase_sv_unit
+R19
+R7
+R8
+R2
+!i10b 1
+!s100 fZhCKINg>7ZSFCgOWMR0e0
+I?X^H3Z7[fz@L77m?:d2DP2
+V?X^H3Z7[fz@L77m?:d2DP2
+!i103 1
+S1
+R0
+R9
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv
+R11
+R22
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 OutputPacket.sv|data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/ReceiverBase.sv|
+!i113 0
+R5
+R1
+n@receiver@base_sv_unit
+XScoreboard_sv_unit
+R8
+R2
+!i10b 1
+!s100 b1Z;CdiNJI5>zVQm];FH40
+IdYM[AB`Wd0c1A>:gIe4em0
+VdYM[AB`Wd0c1A>:gIe4em0
+!i103 1
+S1
+R0
+R9
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv
+R11
+R12
+R22
+L0 4
+R4
+r1
+!s85 0
+31
+R6
+!s107 OutputPacket.sv|Packet.sv|data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Scoreboard.sv|
+!i113 0
+R5
+R1
+n@scoreboard_sv_unit
+vShift_ALU
+R2
+!i10b 1
+!s100 ;UFjMKodY5z>b5PBlY6@E0
+IOP?5kFc<B];:X2RIClh3M1
+R3
+!i119 1
+R0
+w1729823712
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Shift_ALU.vp
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Shift_ALU.vp
+L0 2
+R4
+r1
+!s85 0
+31
+R6
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Shift_ALU.vp|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Shift_ALU.vp|
+!i113 0
+R5
+R1
+n@shift_@a@l@u
+vTop
+R2
+!i10b 1
+!s100 aIOF0SXglRoHU3<_TYlVb3
+IECN2I]CkB[9>ce346:Q4K2
+R3
+R0
+w1729823702
+8/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Top.v
+F/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Top.v
+L0 3
+R4
+r1
+!s85 0
+31
+R6
+!s107 data_defs.v|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Top.v|
+!s90 -reportprogress|300|-work|work|/media/kien/data/kien/20241/design_verify_ic/Lab3/Lab3/Top.v|
+!i113 0
+R5
+R1
+n@top
